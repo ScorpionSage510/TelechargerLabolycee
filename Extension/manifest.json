@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "name": "Labolycée",
+    "version": "1.0",
+    "description": "Une extension pour télécharger facilement un sujet avec son corrigé de labolycee.org. \nNécessite l'application.",
+    "icons": {
+     "16": "icons/labolycee_16.png",
+     "48": "icons/labolycee_48.png",
+     "128": "icons/labolycee_128.png"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "icons/labolycee_48.png"
+    },
+    "permissions": ["storage", "activeTab"],
+    "content_scripts": [
+      {
+        "matches": ["https://www.labolycee.org/*", "http://www.labolycee.org/*"],
+        "js": ["content.js"]
+      }
+    ],
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  
