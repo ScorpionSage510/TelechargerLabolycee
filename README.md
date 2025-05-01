@@ -73,15 +73,13 @@ Pour les utilisateurs à l'aise avec Python et la ligne de commande.
 
 ### Installation de l'Extension Navigateur (Obligatoire)
 
-1.  Téléchargez le code source (ZIP) s'il n'est pas déjà fait (voir Option 2, étape 1).
+1.  Téléchargez le code source (ZIP) s'il n'est pas déjà fait (voir Option 2, étape 1 ou dans [Release](https://github.com/ScorpionSage510/TelechargerLabolycee/releases/latest)).
 2.  Décompressez l'archive ZIP dans un dossier stable (ne supprimez pas ce dossier après l'installation). Repérez le sous-dossier contenant les fichiers de l'extension nommé `Extension` (il devrait y avoir un fichier `manifest.json` à l'intérieur).
 3.  **Ouvrez votre navigateur** et allez à la page de gestion des extensions :
     *   Chrome/Edge : `chrome://extensions`
-    *   Firefox : `about:debugging#/runtime/this-firefox`
 4.  **Activez le "Mode Développeur"** (souvent un interrupteur en haut à droite).
 5.  **Chargez l'extension :**
     *   Chrome/Edge : Cliquez sur "Charger l'extension non empaquetée" et sélectionnez le dossier `extension_labolycee`.
-    *   Firefox : Cliquez sur "Charger un module complémentaire temporaire..." et sélectionnez le fichier `manifest.json` *à l'intérieur* du dossier `extension_labolycee`. (Note : Les extensions temporaires sur Firefox doivent être rechargées après chaque redémarrage du navigateur).
 6.  L'icône de l'extension devrait apparaître dans la barre d'outils de votre navigateur.
 
 ## Utilisation 🖱️
@@ -105,7 +103,8 @@ Pour les utilisateurs à l'aise avec Python et la ligne de commande.
 
 
 
-Nous vous conseillons d'utiliser [AssemblerNumeroterPDF](https://github.com/ScorpionSage510/AssemblerNumeroterPDF) pour fusionner vos sujets téléchargés
+Nous vous conseillons d'utiliser [AssemblerNumeroterPDF](https://github.com/ScorpionSage510/AssemblerNumeroterPDF) pour fusionner vos sujets téléchargés.
 
-Des bugs peuvent survenir
+⚠️ Des bugs peuvent survenir.  
+
 L'application est très simple, des optimisations et des fonctionnalités supplémentaires seraient les bienvenues.
