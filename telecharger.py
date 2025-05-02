@@ -6,6 +6,13 @@ import urllib.parse
 from lxml import html
 
 def telecharger(url):
+    # Vérification de l'existence du dossier
+    folder_name = "téléchargements"
+    if not os.path.exists(folder_name):
+        os.makedirs(folder_name)
+        print(f"Dossier '{folder_name}' créé.")
+    else:
+        print(f"Dossier '{folder_name}' existe déjà.")
     print(url)
     name = url.split("/")[-1]
 
